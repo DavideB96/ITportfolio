@@ -49,8 +49,22 @@ h1{
 }
 
 .subtitle{
-  margin-top: 6px;
+  margin-top: 10px;
   color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  line-height: 1.6;
+}
+
+.subtitle span{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.subtitle i{
+  color: var(--accent2);
 }
 
 .links{
@@ -70,6 +84,9 @@ h1{
   transition: transform .15s ease, background .2s ease, border-color .2s ease;
   font-weight: 600;
   font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 .chip:hover{
   transform: translateY(-1px);
@@ -78,10 +95,11 @@ h1{
 }
 
 .about{
-  margin-top: 14px;
-  max-width: 70ch;
+  margin-top: 16px;
+  max-width: 68ch;
   color: var(--muted);
-  line-height: 1.5;
+  line-height: 1.65;
+  font-size: 1rem;
 }
 
 .section h2{
