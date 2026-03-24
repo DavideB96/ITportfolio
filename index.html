@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Davide Bianchi — Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 
 <body>
@@ -15,27 +16,35 @@
         <div class="top">
             <div>
                 <h1>Davide Bianchi</h1>
-                <p class="subtitle">React • JavaScript • TypeScript • Angular  • HTML • CSS</p>
+
+                <p class="subtitle">
+                    React • JavaScript • TypeScript • Angular • HTML • CSS
+                </p>
             </div>
+
             <nav class="links">
                 <a class="chip" href="https://github.com/DavideB96" target="_blank" rel="noreferrer">
-                    GitHub
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
                 </a>
 
                 <a class="chip" href="https://www.linkedin.com/in/davide-bianchi-052857173/" target="_blank"
                     rel="noreferrer">
-                    LinkedIn
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
                 </a>
 
-                <a class="chip" href="mailto:davidebianchi08@gmail.com"> Email </a>
+                <a class="chip" href="mailto:davidebianchi08@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
             </nav>
         </div>
 
         <p class="about">
-            Frontend Developer focalizzato sulla creazione di interfacce web pulite,
-            responsive e orientate all’utente. In costante crescita verso lo
-            sviluppo frontend moderno e con forte interesse nella crescita verso lo
-            sviluppo full-stack moderno e l’integrazione di strumenti basati su AI.
+            Frontend Developer focalizzato sulla realizzazione di interfacce web pulite,
+            responsive e intuitive, con particolare attenzione all’esperienza utente
+            e allo sviluppo frontend moderno.
         </p>
     </header>
 
@@ -61,6 +70,7 @@
                             target="_blank">Code</a>
                     </div>
                 </article>
+
                 <!-- Urban WIP -->
                 <article class="card">
                     <div class="card-head">
@@ -75,6 +85,23 @@
                     <div class="actions">
                         <a class="btn" href="https://davideb96.github.io/urban-wip-ecommerce/" target="_blank">Live</a>
                         <a class="btn ghost" href="https://github.com/DavideB96/urban-wip-ecommerce"
+                            target="_blank">Code</a>
+                    </div>
+                </article>
+
+                <!-- EasyTrack Angular -->
+                <article class="card">
+                    <div class="card-head">
+                        <h3>EasyTrack</h3>
+                        <span class="tag">Angular</span>
+                    </div>
+                    <p class="desc">
+                        Applicazione web di gestione attività sviluppata con Angular. Consente di assegnare task ai
+                        membri del team, monitorarne lo stato e organizzare il lavoro in modo semplice ed efficace.
+                    </p>
+                    <div class="actions">
+                        <a class="btn" href="https://easytrack-task-manager.vercel.app/" target="_blank">Live</a>
+                        <a class="btn ghost" href="https://github.com/DavideB96/easytrack-task-manager"
                             target="_blank">Code</a>
                     </div>
                 </article>
@@ -95,21 +122,6 @@
                     </div>
                 </article>
 
-                <!-- Quiz -->
-                <article class="card">
-                    <div class="card-head">
-                        <h3>Quiz di Geografia</h3>
-                        <span class="tag">DOM</span>
-                    </div>
-                    <p class="desc">
-                        Quiz con validazione input, feedback dinamico e gestione
-                        interazioni DOM.
-                    </p>
-                    <div class="actions">
-                        <a class="btn" href="https://davideb96.github.io/geo-quiz/" target="_blank">Live</a>
-                        <a class="btn ghost" href="https://github.com/DavideB96/geo-quiz" target="_blank">Code</a>
-                    </div>
-                </article>
                 <!-- Angular Landing Page -->
                 <article class="card">
                     <div class="card-head">
@@ -127,27 +139,11 @@
                             target="_blank">Code</a>
                     </div>
                 </article>
-                <!-- EasyTrack Angular -->
-                <article class="card">
-                    <div class="card-head">
-                        <h3>EasyTrack</h3>
-                        <span class="tag">Angular</span>
-                    </div>
-                    <p class="desc">
-                        Applicazione web di gestione attività sviluppata con Angular. Consente di assegnare task ai
-                        membri del team, monitorarne lo stato e organizzare il lavoro in modo semplice ed efficace.
-                    </p>
-                    <div class="actions">
-                        <a class="btn" href="https://easytrack-task-manager.vercel.app/" target="_blank">Live</a>
-                        <a class="btn ghost" href="https://github.com/DavideB96/easytrack-task-manager"
-                            target="_blank">Code</a>
-                    </div>
-                </article>
             </div>
         </section>
 
         <footer class="footer">
-            <small>© <span id="year"></span> Davide Bianchi</small>
+            <small>©️ <span id="year"></span> Davide Bianchi</small>
         </footer>
     </main>
 
