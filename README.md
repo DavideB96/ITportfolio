@@ -5,7 +5,6 @@ Portfolio personale creato per presentare i miei progetti frontend e full-stack,
 ## 🌐 Demo Live
 
 👉 [https://davideb96.github.io/ITportfolio/](https://davideb96.github.io/ITportfolio/)
-👉 [https://davideb96.github.io/EnPortfolio/](https://davideb96.github.io/EnPortfolio/)
 
 ---
 
