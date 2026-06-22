@@ -129,6 +129,26 @@ h1{
   background: linear-gradient(180deg, var(--panel2), rgba(255,255,255,0.04));
 }
 
+.card.featured{
+  border-color: rgba(124,92,255,0.35);
+  background: linear-gradient(180deg, rgba(124,92,255,0.12), rgba(255,255,255,0.03));
+  grid-column: 1 / -1;
+}
+.card.featured:hover{
+  border-color: rgba(124,92,255,0.50);
+}
+
+.tag-group{
+  display: flex;
+  gap: 6px;
+}
+
+.tag.accent{
+  background: rgba(124,92,255,0.18);
+  border-color: rgba(124,92,255,0.40);
+  color: #b8a5ff;
+}
+
 .card-head{
   display: flex;
   align-items: center;
@@ -203,6 +223,8 @@ h1{
   .card:nth-child(2) { animation-delay: 120ms; }
   .card:nth-child(3) { animation-delay: 180ms; }
   .card:nth-child(4) { animation-delay: 240ms; }
+  .card:nth-child(5) { animation-delay: 300ms; }
+  .card:nth-child(6) { animation-delay: 360ms; }
 
   @keyframes cardIn {
     to {
